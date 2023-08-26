@@ -1,5 +1,5 @@
-#Rotator
-###Specify placement directions of blocks.
+<h1>Rotator</h1>
+<h3>Specify placement directions of blocks.</h3>
 
 ***Supported blocks:***
 - Observer, (Sticky) Piston, Dispenser, Hopper, Dropper
@@ -10,7 +10,7 @@
 - Malilib Version: `0.16.1`
 - ModMenu Version: `7.2.1`
 
-###Config:
+<h3>Config:</h3>
 
 ***mainToggle***
 - The main toggle of Rotator mod.
