@@ -57,13 +57,13 @@ public class Configs implements IConfigHandler {
 
         public static final ConfigBooleanHotkeyed MAIN_TOGGLE = new ConfigBooleanHotkeyed("mainToggle", true, "", "The main toggle for Rotator mod");
 
-        public static final ConfigBooleanHotkeyed OPPOSITE_PLACEMENT = new ConfigBooleanHotkeyed("oppositePlacementToggle", false, "", "Sets the placement direction to the reverse of the default direction");
+        public static final ConfigBooleanHotkeyed OPPOSITE_PLACEMENT = new ConfigBooleanHotkeyed("oppositePlacementToggle", false, "", "Sets the placement direction to the reverse of the default direction.\n(When you turn this on, the following block toggles will not work)");
 
-        public static final ConfigBooleanHotkeyed OBSERVER_TOGGLE = new ConfigBooleanHotkeyed("observerToggle", false, "", "Enables a player to choose a specific direction from the direction list to place observer blocks");
-        public static final ConfigBooleanHotkeyed PISTON_TOGGLE = new ConfigBooleanHotkeyed("pistonToggle", false, "", "Enables a player to choose a specific direction from the direction list to place (sticky)piston blocks");
-        public static final ConfigBooleanHotkeyed DISPENSER_TOGGLE = new ConfigBooleanHotkeyed("dispenserToggle", false, "", "Enables a player to choose a specific direction from the direction list to place dispenser blocks");
-        public static final ConfigBooleanHotkeyed DROPPER_TOGGLE = new ConfigBooleanHotkeyed("dropperToggle", false, "", "Enables a player to choose a specific direction from the direction list to place dropper blocks");
-        public static final ConfigBooleanHotkeyed HOPPER_TOGGLE = new ConfigBooleanHotkeyed("hopperToggle", false, "", "Enables a player to choose a specific direction from the direction list to place hopper blocks");
+        public static final ConfigBooleanHotkeyed OBSERVER_TOGGLE = new ConfigBooleanHotkeyed("observerToggle", false, "", "Enables a player to choose a specific direction \nfrom the direction list to place observer blocks.");
+        public static final ConfigBooleanHotkeyed PISTON_TOGGLE = new ConfigBooleanHotkeyed("pistonToggle", false, "", "Enables a player to choose a specific direction \nfrom the direction list to place (sticky)piston blocks.");
+        public static final ConfigBooleanHotkeyed DISPENSER_TOGGLE = new ConfigBooleanHotkeyed("dispenserToggle", false, "", "Enables a player to choose a specific direction \nfrom the direction list to place dispenser blocks.");
+        public static final ConfigBooleanHotkeyed DROPPER_TOGGLE = new ConfigBooleanHotkeyed("dropperToggle", false, "", "Enables a player to choose a specific direction \nfrom the direction list to place dropper blocks.");
+        public static final ConfigBooleanHotkeyed HOPPER_TOGGLE = new ConfigBooleanHotkeyed("hopperToggle", false, "", "Enables a player to choose a specific direction \nfrom the direction list to place hopper blocks.");
 
         //TODO  flipper: flipping blocks with hand
 

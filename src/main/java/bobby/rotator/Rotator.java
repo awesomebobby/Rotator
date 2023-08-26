@@ -10,7 +10,6 @@ public class Rotator implements ModInitializer {
 
     public static final String MOD_ID = "rotator";
     public static final String MOD_NAME = "Rotator";
-    public static final String MOD_VERSION= "1.0";
 
     public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
