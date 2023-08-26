@@ -1,0 +1,12 @@
+{
+    "rotator.config.toggle": "Toggle",
+    "rotator.config.generic": "Generic",
+    "rotator.config.title": "Rotator",
+
+    "rotator.util.up": "Up",
+    "rotator.util.down": "Down",
+    "rotator.util.north": "North",
+    "rotator.util.south": "South",
+    "rotator.util.east": "East",
+    "rotator.util.west": "West"
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "rotator",
+  "version": "1.0",
+  "name": "Rotator",
+  "description": "Specify placement directions of blocks.",
+  "authors": ["awesomebobby"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/rotator",
+    "issues": "https://github.com/awesomebobby/Rotator/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/rotator/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "bobby.rotator.Rotator"
+    ],
+    "modmenu": [
+      "bobby.rotator.compat.ModMenu"
+    ]
+  },
+  "mixins": [
+    "rotator.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "malilib":"0.16.1"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "soruce": "https://github.com/awesomebobby/Rotator"
+      },
+      "update_checker": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "bobby.rotator.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DispenserBlockMixin",
+    "HopperBlockMixin",
+    "ObserverBlockMixin",
+    "PistonBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
